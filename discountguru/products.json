@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Phone",
+    "category": "Technology",
+    "price": 1500.0
+  },
+  {
+    "id": 2,
+    "name": "TV",
+    "category": "Technology",
+    "price": 1700.0
+  },
+  {
+    "id": 3,
+    "name": "Computer",
+    "category": "Technology",
+    "price": 1000.0
+  },
+  {
+    "id": 4,
+    "name": "Leptop",
+    "category": "Technology",
+    "price": 1200.0
+  },
+  {
+    "id": 5,
+    "name": "Game Console",
+    "category": "Technology",
+    "price": 1300.0
+  },
+  {
+    "id": 6,
+    "name": "Refrigerator",
+    "category": "Technology",
+    "price": 1500.0
+  },
+  {
+    "id": 7,
+    "name": "Coconut",
+    "category": "Food and Beverages",
+    "price": 1700.0
+  },
+  {
+    "id": 8,
+    "name": "Apple",
+    "category": "Food and Beverages",
+    "price": 19.0
+  },
+  {
+    "id": 9,
+    "name": "Pear",
+    "category": "Food and Beverages",
+    "price": 50.0
+  },
+  {
+    "id": 10,
+    "name": "Bluberry",
+    "category": "Food and Beverages",
+    "price": 61.0
+  },
+  {
+    "id": 11,
+    "name": "Pencil",
+    "category": "Stationery",
+    "price": 30.0
+  }
+]
