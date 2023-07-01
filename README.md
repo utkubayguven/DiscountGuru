@@ -3,10 +3,10 @@ Welcome to the DiscountGuru Shopping System Project. This application, built wit
 
 ## Features
 - **User Login:** Users can login with their predefined credentials.
-![User Console](images/user.jpg)
+![User Console](images/user.PNG)
 - **Product Browsing and Management:** Users can view the product catalog, which includes details like the product name, category, and price. They can add desired products to their basket, view their basket's contents, and remove items from their basket as needed.
 - **Admin Login and Management:** Admins have the ability to login with their predefined credentials. They can perform operations like adding, updating, and removing products. Furthermore, they can view a list of all users and their details.
-![Admin Console](images/admin.jpg)
+![Admin Console](images/admin.PNG)
 
 ## Structure
 The DiscountGuru Shopping System consists of the following main files:
