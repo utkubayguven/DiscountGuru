@@ -2,6 +2,9 @@
 Welcome to the DiscountGuru Shopping System Project. This application, built with Java, simulates a simple online shopping system where users and administrators can perform various operations. Users can explore the product catalog, add items to their basket, and manage their basket items, while administrators have the ability to manage products and users. Data is stored in JSON files using Google's Gson library, providing persistence across multiple uses of the application.
 
 ## Features
+
+>This project employs Object Oriented Programming (OOP) principles in Java to create a simple yet functional shopping system. OOP enables the encapsulation of related properties and behaviors into individual objects, thus making the code more modular, flexible, and understandable.
+
 - **User Login:** Users can login with their predefined credentials.
 
 ![User Console](images/user.PNG)
