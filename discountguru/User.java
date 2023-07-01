@@ -157,22 +157,21 @@ public class User extends Person {
 
 
     public int getDiscountPercentage() {
-        int totalDiscountPercent = 0;
+        int maxDiscountPercent = 0;
 
         if(getCard().equals("Gold")) {
-            totalDiscountPercent += 30;// If the user has a "Gold" card, add 30 to the total discount percentage
-        } else if(getCard().equals("Silver")) {
-            totalDiscountPercent += 20;// If the user has a "Silver" card, add 20 to the total discount percentage
-
+            maxDiscountPercent = Math.max(maxDiscountPercent, 30); // If the user has a "Gold" card, compare it with the current max discount percentage
+        } 
+        if(getCard().equals("Silver")) {
+            maxDiscountPercent = Math.max(maxDiscountPercent, 20); // If the user has a "Silver" card, compare it with the current max discount percentage
         }
         if(getAffiliate()) {
-            totalDiscountPercent += 10;// If the user is an affiliate, add 10 to the total discount percentage
+            maxDiscountPercent = Math.max(maxDiscountPercent, 10); // If the user is an affiliate, compare it with the current max discount percentage
         }
-
         if(isLongTermCustomer()) {
-            totalDiscountPercent += 5;// If the user is a long-term customer, add 5 to the total discount percentage
+            maxDiscountPercent = Math.max(maxDiscountPercent, 5); // If the user is a long-term customer, compare it with the current max discount percentage
         }
-        return totalDiscountPercent;
+        return maxDiscountPercent;
     }
 
 
